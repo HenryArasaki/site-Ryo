@@ -18,7 +18,7 @@
 
         <header class="topbar">
             <nav class="menu">
-                <a href="index.html">Inicio</a>
+                <a href="index.md">Inicio</a>
                 <a href="skills.html">Skills</a>
                 <a href="historia.html">História</a>
             </nav>
