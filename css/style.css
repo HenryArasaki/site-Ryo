@@ -1,0 +1,142 @@
+body{
+    background:#1B1B1E;
+    margin:0;
+}
+
+.page-wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+/* #FAA916 marelo
+#FBFFFE branco
+#6D676E cinza
+#1B1B1E preto
+*/
+
+
+.menu{
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #FAA916;
+    height: 75px;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.menu a{
+    padding: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #1B1B1E;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.partezinha{
+    height: 80vh;
+    margin: 7vh 14vh 40vh 14vh;
+    display: flex;
+    box-sizing: border-box;
+}
+.partezinha img{
+    height: 80vh;
+    display: inline-block;
+    box-shadow: 9px 9px 1px 1px rgba(100, 100, 100, 0.3);
+}
+
+.partezinha p{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    top:10px;
+    padding: 10% 5%;
+    color: #FBFFFE;
+    font-size: 3rem;
+    box-sizing: border-box;
+}
+
+.footer{
+    bottom: 0;
+    background-color: #FAA916;
+    position: absolute;
+    display: block;
+}
+
+.paginaHome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#ryoLado{
+    right: 0px;
+    bottom: 0px;
+    height: 90%;
+    align-self: flex-end;
+    position: absolute;
+    display: flex;
+}
+.paginaHome P{
+    display: block;
+    margin-top: 20%;
+    height: 50%;
+    width: 30%;
+    font-size: 4rem;
+    padding-top:20px;
+    padding-left: 10%;
+}
+
+
+
+
+
+@media screen and (max-width: 1062px) {
+    #ryoLado{
+        width: 70%;;
+        max-width: 592px;
+        height: auto;
+    }
+    .paginaHome p{
+        font-size: 2rem;
+        width: 30%;
+        padding-top:5px;
+        padding-left: 4%;
+    }
+
+    .partezinha{
+        padding-top: 20px;
+        margin: 3vh 7vh 20vh 7vh;
+        height: 30vh;
+    }
+    .partezinha img{
+        box-shadow: 4px 4px 0px 0px rgba(100, 100, 100, 0.3);;
+        width: 40%;
+        height: min-content;
+        margin-top: 50px;
+    }
+    .partezinha p{
+        font-size: 2rem;
+    }
+}
+
+/* ----------------------- */
+
+.cor-amarelo{
+    color: #FAA916;
+}
+
+.cor-cinza{
+    color: #6D676E;
+}
+
+.cor-preto{
+    color: #1B1B1E;
+}
+
+.cor-branco{
+    color:#FBFFFE;
+}
